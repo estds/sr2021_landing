@@ -6,11 +6,7 @@ body {
   overflow: hidden;
 }
 
-.landing {
-  margin-top: 5%;
-}
-
-.landing:before {
+.default:before {
 content: '';
     position: absolute;
     top: 0;
@@ -19,6 +15,10 @@ content: '';
     left: 0;
     opacity: .6;
     background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+}
+
+.landing {
+  margin-top: 5%;
 }
 
 .credit-label {
